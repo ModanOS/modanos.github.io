@@ -1,0 +1,123 @@
+body {
+  background-color: #fff;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.container-top {
+  background-image: url("https://modan-os.my.canva.site/images/9082b118d205af30f18fd07eefc7d930.png");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  height: 700px;
+}
+.video-container {
+  flex: 1;
+  margin-right: 0px;
+
+}
+
+.img-container {
+  flex: 1;
+  margin-left: 150px;
+  margin-bottom: 50px;
+
+}
+
+.text-container {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.text-container2 {
+  flex: 1;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.container-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 7em;
+}
+
+h3 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 3em;
+}
+p {
+  font-size: 1.5em;
+}
+.button {
+  background-color: #ECF0F3; /* Color de fondo */
+  border: none; /* Sin borde */
+  border-radius: 20px; /* Bordes redondeados */
+  box-shadow: 10px 10px 20px #D1D9E6, -10px -10px 20px #ffffff; /* Sombras */
+  color: #000000; /* Color de texto */
+  font-size: 1.2rem; /* TamaÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±o de fuente */
+  padding: 1rem 2rem; /* Espaciado interior */
+  margin: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  margin: 50px auto; /* Margen superior e inferior de 20px y margen izquierdo y derecho automáticos */
+}
+.container2 {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container2 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.footer {
+  background-color: rgb(0, 0, 0, 90%);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  text-align: left;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
